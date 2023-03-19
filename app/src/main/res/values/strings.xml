@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">NitroNetwork</string>
+
+
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="title_home">Home</string>
+
+
+    <string name="Splash">Splash</string>
+
+    <string name="password_strength_weak">too short</string>
+    <string name="password_strength_medium">Password Strength is Weak</string>
+    <string name="password_strength_strong">Password Strength is Medium</string>
+    <string name="password_strength_very_strong">Password Strength is Strong</string>
+
+    <!--Purchase Flow Strings-->
+    <string name="label_rupee">₹</string>
+
+    <!--Manage Admin-->
+
+    <!--Manage new request-->
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="sign_up">SIGN UP</string>
+
+
+    <string name="session_expired">your session has expired. please log in</string>
+
+</resources>

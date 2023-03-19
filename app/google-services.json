@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "219010723932",
+    "project_id": "nitronetwork-29882",
+    "storage_bucket": "nitronetwork-29882.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219010723932:android:66cbd4bbbe412854853699",
+        "android_client_info": {
+          "package_name": "nitro.network"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219010723932-ir6sp03ohaaur7bt37nj2c8dk3klm211.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nitro.network",
+            "certificate_hash": "31d4637d02e1662bc53b0213106ed00bdbf6b113"
+          }
+        },
+        {
+          "client_id": "219010723932-mmsld0mepcnorbrsk33ddkks96f2jq2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDASFfl_rVJsjVXeqriFSiGTecXUS819_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219010723932-mmsld0mepcnorbrsk33ddkks96f2jq2h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_splash">
+
+    <fragment
+        android:id="@+id/navigation_splash"
+        android:name="nitro.network.ui.general.SplashFragment"
+        android:label="@string/Splash"
+        tools:layout="@layout/fragment_splash">
+        <action
+                android:id="@+id/action_SplashFragment_to_HomeFragment"
+                app:destination="@id/navigation_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="nitro.network.ui.general.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_LoginFragment"
+            app:destination="@id/navigation_login" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_login"
+        android:name="nitro.network.ui.general.LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_LoginFragment_to_HomeFragment"
+            app:destination="@id/navigation_home"
+            app:popUpTo="@+id/navigation_login"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+</navigation>
